@@ -1,0 +1,51 @@
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+body {
+    font-size: 16px;
+}
+
+section {
+	margin-bottom: 1em;
+}
+
+#content_wrapper {
+    margin: 1em;
+}
+
+h1 {
+    color: gold;
+    font-size: 1.2em;
+}
+
+#content_wrapper {
+    max-width: 80%;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled {
+    color: #ccc;
+}
+
+#countries_available, #countries_selected, #add_country, #remove_country {
+    float: left;
+    margin: 1em 1em;
+}
+
+#add_country, #remove_country {
+    margin-top: 7em;
+}
+
+#countries_available select, #countries_selected select{
+    width: 100%;
+} 
+
+#countries_available h1, #countries_selected h1 {
+    color: black;
+} 
+
+#advertise {
+    clear: left;
+}
